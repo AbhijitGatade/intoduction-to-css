@@ -1,0 +1,72 @@
+CSS
+
+Cascading Style Sheet
+
+HTML pages can not look beautiful. To look beautiful they need CSS.
+
+CSS style types
+
+1. Inline CSS
+	We give styling in the line tag itself.
+	
+	e.g. 
+	<p style="color:red;">Hello</p>
+	
+	
+2. Internal CSS
+
+	We give styling in <style></style> tag in head tag.
+	And apply that style for full page.
+	
+	e. g. 	
+	<html>
+		<head>
+			<style>
+				p {
+					color: red;
+					background-color: pink;
+					padding: 20px;
+					margin: 50px;
+				}
+			</style>
+		</head>
+		<body>
+			<p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>    
+		</body>
+	</html>
+	
+3. External CSS
+
+	Here we create .css file and put all design in it.
+	Then we link that file in HTML files.
+	
+	style.css
+	
+	p {
+		color: red;
+		background-color: pink;
+		padding: 20px;
+		margin: 50px;
+	}
+	
+	paragraph.html
+	
+	<html>
+		<head>
+			<link href="style.css" rel="stylesheet" />
+		</head>
+		<body>
+			<p>DSFFsdfsd</p>
+			<p>sfsdsdsd</p>
+		</body>
+	</html>
+	
+
+Span
+Div
+Paragraph
+input
+
+
+
+	
